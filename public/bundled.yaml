@@ -59,7 +59,7 @@ paths:
                 $ref: '#/components/schemas/Task'
         '400':
           $ref: '#/components/responses/BadRequest'
-  /tasks/:id:
+  /tasks/{id}:
     get:
       summary: Get a task by ID
       tags:

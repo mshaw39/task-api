@@ -22,7 +22,7 @@ export const validateTask = [
 export const validateTaskId = [
   param('id')
     .isInt()
-    .withMessage('ID must be a a number'),
+    .withMessage('ID must be a number'),
     
 
   checkValidationResults
